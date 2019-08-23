@@ -11,7 +11,7 @@ export default function App() {
     <main>
       <Header />
       {/* <CharacterList /> */}
-      <LocationsList />
+      {/* <LocationsList /> */}
       {/* <Episodes /> */}
       {/* <WelcomPage /> */}
       {/* <TabNav /> */}
