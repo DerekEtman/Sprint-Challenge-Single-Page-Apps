@@ -43,10 +43,10 @@ Follow these steps to set up and work on your project:
 
 - [x] Create a forked copy of this project.
 - [x] Add TL as collaborator on GitHub.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
-- [ ] Implement the project on this branch, committing changes regularly.
-- [ ] Push commits: `git push origin <firstName-lastName>`.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
+- [x] Implement the project on this branch, committing changes regularly.
+- [x] Push commits: `git push origin <firstName-lastName>`.
 - [ ] **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
 - [ ] **RUN** `yarn install` or `npm install` to retrieve the client-side dependencies.
 - [ ] **RUN** `yarn start` or `npm start` to fire up your React application.
@@ -94,8 +94,11 @@ Create 3 page components to display data from 3 API endpoints:
 - `https://rickandmortyapi.com/api/character/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-characters)
 - `https://rickandmortyapi.com/api/location/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-locations)
 - `https://rickandmortyapi.com/api/episode/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-episodes)
+
 - You will need to add a EpisodeList and EpisodeCard component yourself.
+
 - [ ] Read the [Rick & Morty API](https://rickandmortyapi.com/documentation/) docs.
+
 - [ ] Create a component to show a grid of data from the API.
   - [ ] Include `useState`, `useEffect`.
   - [ ] Use `Axios` (or `fetch`) to make a GET request to the 3 endpoints.
