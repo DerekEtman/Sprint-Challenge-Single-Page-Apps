@@ -12,11 +12,11 @@ export default function CharacterCard(data) {
     <div className="characterCard ui card" key={data.character.id}>
       <img className="image" src={data.character.image} />
         <div className="content">
-          <h2 className="header">{data.character.name}</h2>
-          <p className="meta">{data.character.species}</p>
-          <p className="meta">{data.character.status}</p>
-          <p className="meta">{data.character.gender}</p>
-          <p className="meta">{data.character.location.name}</p>
+          <h2 className="header">Name: {data.character.name}</h2>
+          <p className="meta">Species: {data.character.species}</p>
+          <p className="meta">Status: {data.character.status}</p>
+          <p className="meta">Gender: {data.character.gender}</p>
+          <p className="meta">Location: {data.character.location.name}</p>
         </div>
     </div>
   

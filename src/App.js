@@ -7,10 +7,10 @@ import "./index.css";
 import Header from "./components/Header.js";
 import TabNav from "./components/TabNav.js";
 
-import WelcomePage from "./components/WelcomePage.js";
-import CharacterList from "./components/CharacterList.js";
-import LocationsList from "./components/LocationsList.js";
-import EpisodeList from "./components/EpisodeList.js";
+// import WelcomePage from "./components/WelcomePage.js";
+// import CharacterList from "./components/CharacterList.js";
+// import LocationsList from "./components/LocationsList.js";
+// import EpisodeList from "./components/EpisodeList.js";
 
 
 export default function App() {
@@ -20,13 +20,13 @@ export default function App() {
       <Header className="pageHeader" />
       <TabNav />
       </div>
-      
-      <div>
+
+      {/* <div>
         <WelcomePage />
         <CharacterList />
         <LocationsList />
         <EpisodeList />
-      </div>
+      </div> */}
      
     </main>
   );
