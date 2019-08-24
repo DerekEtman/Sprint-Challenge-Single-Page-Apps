@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import CharacterCard from "./CharacterCard.js";
+import { Card } from 'semantic-ui-react';
 
 export default function CharacterList() {
 
@@ -28,7 +29,7 @@ export default function CharacterList() {
   }, []);
   
   return (
-    <section className="character-list grid-view">
+    <section className="character-list ui equal width grid">
       { char.map(data => (
         <CharacterCard key={data.id} character={data} />
         ))}

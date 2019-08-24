@@ -27,6 +27,13 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
+
+.characterlist{
+  margin: 0 auto;
+}
+.characterCard {
+  margin: 5%;
+}
 /*
 .main-img {
   display: block;
