@@ -19,9 +19,15 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.ui.card{
+  margin:1em;
+}
 
 .page-view {
   min-height: 40vh;
+}
+.pageHeader{
+  padding:10%;
 }
 
 .grid-view div.card.ui {
