@@ -40,7 +40,15 @@ main {
 .characterCard {
   margin: 5%;
 }
-/*
+
+.tabs{
+  margin: 2% 0;
+}
+
+.pages{
+  margin:5% 0;
+}
+/* 
 .main-img {
   display: block;
   border-radius: 100%;

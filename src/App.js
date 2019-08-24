@@ -18,16 +18,10 @@ export default function App() {
     <main>
       <div>
       <Header className="pageHeader" />
-      <TabNav />
+        <div className="tabs">
+          <TabNav />
+        </div>
       </div>
-
-      {/* <div>
-        <WelcomePage />
-        <CharacterList />
-        <LocationsList />
-        <EpisodeList />
-      </div> */}
-     
     </main>
   );
 }

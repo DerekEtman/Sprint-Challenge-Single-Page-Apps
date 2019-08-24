@@ -16,13 +16,13 @@ export default function TabNav() {
     <div>
         <div className="ui attached tabular menu">
 
-            <NavLink exact className="active item" to="/">Home</NavLink>
+            <NavLink exact className="item" to="/">Home</NavLink>
             <NavLink className="item" to="/CharacterList">Characters</NavLink>
             <NavLink className="item" to="/LocationsList">Locations</NavLink>
             <NavLink className="item" to="/EpisodeList">Episodes</NavLink> 
         </div>
 
-        <div>
+        <div className="pages">
             <Route exact path="/" component={WelcomePage} />
             <Route path="/CharacterList/" component={CharacterList} />
             <Route path="/LocationsList/" component={LocationsList} />
