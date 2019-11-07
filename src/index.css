@@ -19,15 +19,36 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.ui.card{
+  margin:1em;
+}
 
 .page-view {
   min-height: 40vh;
+}
+.pageHeader{
+  padding:10%;
 }
 
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
+
+.characterlist{
+  margin: 0 auto;
+}
+.characterCard {
+  margin: 5%;
+}
+
+.tabs{
+  margin: 2% 0;
+}
+
+.pages{
+  margin:5% 0;
+}
+/* 
 .main-img {
   display: block;
   border-radius: 100%;

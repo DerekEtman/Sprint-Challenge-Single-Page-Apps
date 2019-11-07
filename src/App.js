@@ -1,13 +1,27 @@
 import React from "react";
-import TabNav from "./components/TabNav.js";
+import { Link } from "react-router-dom";
+import { Tab } from 'semantic-ui-react';
+import "./index.css";
+
+
 import Header from "./components/Header.js";
+import TabNav from "./components/TabNav.js";
+
+// import WelcomePage from "./components/WelcomePage.js";
+// import CharacterList from "./components/CharacterList.js";
+// import LocationsList from "./components/LocationsList.js";
+// import EpisodeList from "./components/EpisodeList.js";
 
 
 export default function App() {
   return (
     <main>
-      <Header />
-      {/* <TabNav /> */}
+      <div>
+      <Header className="pageHeader" />
+        <div className="tabs">
+          <TabNav />
+        </div>
+      </div>
     </main>
   );
 }
